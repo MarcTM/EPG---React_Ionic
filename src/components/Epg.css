@@ -1,0 +1,100 @@
+
+.my-label {
+    font-size: 1.5em;
+    padding: 15px;
+    font-weight: bold;
+}
+
+ion-col{
+    padding:3px !important;
+}
+
+.event_slide_time{
+    color: white;
+    display: block;
+}
+
+.event_slide_name{
+    color: white;
+    display: block;
+}
+
+.swiper-wrapper{
+    width:10000px!important;
+}
+
+
+@media (max-width: 860px) {
+    ion-slide{
+        width: 110px !important; 
+        height: 210px !important;
+    }
+    .card-image {
+        width: 90px !important; 
+        height: 90px !important;        
+    }
+    .cardLabel {
+        position:relative;
+        bottom:5px; 
+        font-size: 0.5em;           
+    }
+}
+
+@media (min-width: 860px) {
+    /* ChannelList.tsx */
+    ion-slide.list_channels_slide{
+        width: 280px !important; 
+        height: 250px !important;
+    }
+    ion-slide.list_channels_slide{
+        border: 1px solid #000000 !important;
+        border-radius: 25px !important;
+        background-color: orange !important;
+        color: white;
+    }
+    ion-slide.list_channels_slide h2{
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+
+    /* Epg.js */
+    ion-slides.slides_la1 {
+        padding: 10px;
+        background-color: rgb(55, 55, 77);
+    }
+    ion-slide.event_slide{
+        margin-right: 10px;
+        border: 1px solid #000000 !important;
+        background-color: rgb(169, 172, 173) !important;
+        width: 280px !important; 
+        height: 100px !important;
+    }
+    ion-slide.channel_slide{
+        color: white;
+        background-color: rgb(55, 55, 77) !important;
+        margin: 0px 5px 0px 5px;
+        width: 150px !important; 
+        height: 100px !important;
+    }
+    ion-card-header.event_time {
+        height: 40px;
+    }
+    .la1_channel {
+        background-color: grey;
+    }
+    .card-image {
+        width: 150px !important; 
+        height: 150px !important; 
+    }
+    .cardLabel {
+        position:relative;
+        bottom:10px;
+        font-size: 0.75em;    
+    }
+}
+
+.card-image {
+    border-radius:20%!important;
+    margin: auto !important;
+    overflow: hidden;
+}
